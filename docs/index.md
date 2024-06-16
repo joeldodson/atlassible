@@ -10,7 +10,7 @@ The actual atlassible package is barely in skeletal form,
 I'll provide more detailed docs as I figure out what I'm doing.
 
 There is an optional extra package installable with atlassible, aticli.
-aticli is a python script to both give examples of using atlassible,
+aticli is a typer based python script to both give examples of using atlassible,
 and hopefully be a useful tool out of the box.
 See below for how to install aticli along with atlassible.
 
@@ -34,9 +34,9 @@ atl_base_url = os.getenv("ATLASSIAN_BASE_URL", "ATLASSIAN_BASE_URL is missing")
 atl_api_url = os.getenv("ATLASSIAN_API_URL", "/rest/api/3/")
 ```
 
-- ATLASSIAN_USER is the username you use to log in to Atlassian services (e.g., jira).
+- ATLASSIAN_USER is the username you use to log in to Atlassian services.
 - ATLASSIAN_API_TOKEN is the token you obtained as described in the link above regarding Basic authentication.
-- ATLASSIAN_BASE_URL is the URL you use to log in to Atlassian (e.g., https://yourcompany.atlassian.net) )
+- ATLASSIAN_BASE_URL is the URL you use to log in to Atlassian (e.g., https://yourcompany.atlassian.net).
 - ATLASSIAN_API_URL affects which version of the REST API you're accessing.  It defaults to version 3.
 
 As you can hopefully see from above, failing to set user, token, or base_url will result in failure.
