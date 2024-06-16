@@ -1,0 +1,15 @@
+site_name: atlassible Documentation
+site_url: https://joeldodson.github.io/atlassible
+repo_url: https://github.com/joeldodson/atlassible
+repo_name: atlassible on GitHub
+site_description:  Providing Python classes to access Atlassian RESTful APIs.
+site_author: Joel Dodson
+
+nav:
+  - Home: index.md
+  - Change Log: CHANGELOG.md
+  - Contributing: CONTRIBUTING.md
+  - Code of Condut: CONDUCT.md
+
+theme:
+  name: material 
