@@ -1,4 +1,4 @@
-""" blassian replInit 
+""" atlassible/replInit 
 put stuff in here you want to use in the REPL.
 In the REPL, import this as:
 
@@ -14,7 +14,7 @@ atl_user = os.getenv("ATLASSIAN_USER")
 atl_pwd = os.getenv("ATLASSIAN_PWD")
 atl_token = os.getenv("ATLASSIAN_API_TOKEN")
 atl_base_url = os.getenv("ATLASSIAN_BASE_URL")
-atl_api_url = os.getenv("ATLASSIAN_API_URL")
+atl_api_url = os.getenv("ATLASSIAN_API_URL", "/rest/api/3/")
 atl_rest_url = f"{atl_base_url}{atl_api_url}"
 atl_creds = (atl_user, atl_token)
 

@@ -75,6 +75,21 @@ thus don't intend to provide any instructions in these docs.
 I might add some notes if it turns out there's confusion around aticli.
 Or maybe I'll fix aticli to avoid the confusion. 
 
+## Personal Note
+
+As with any useful software, atlassible was started to solve a problem.
+Maybe it's just me, and no one else will ever use atlassible.
+If it does appear to address problems others are having, and people are using it, that'll be great.
+Initially though, I'll be writing it based on what I want/need, with a longer term perspective that it needs to be flexible.
+I'll probably program in shortcuts in some areas,
+or make decisions to simplify the code based on what I need, while understanding my own needs will change.
+I'll add comments in the docs to highlite where I made decisions based on what I thought was important.
+
+I'm writing this section as I think about how to handle the expand query parameter.
+Hopefully I landed that one in a good spot.
+If not, or for other cases, I'm open to comments and suggestions.
+Please open an issue in the repo and we can discuss the tradeoffs.
+
 ## Future
 
 Someday I might package aticli as a python executable perhaps runnable via `pipx`.

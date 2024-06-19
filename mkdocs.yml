@@ -7,6 +7,7 @@ site_author: Joel Dodson
 
 nav:
   - Home: index.md
+  - atlassible API: atlassible_api.md
   - Change Log: CHANGELOG.md
   - Contributing: CONTRIBUTING.md
   - Code of Condut: CONDUCT.md

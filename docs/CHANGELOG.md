@@ -1,5 +1,12 @@
 # Changelog
 
+## v0.1.1 (2024-06-19)
+
+- supporting expand parameter, starting with myself endpoint
+- started documenting the API with note regarding the expand parameter
+- update aticli to support expand option for the 'me' sub-command
+- fixed typo in pyproject.toml for docs URL
+
 ## v0.1.0 (2024-06-16)
 
 - First release of `atlassible`!
